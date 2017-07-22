@@ -1,0 +1,619 @@
+body {
+margin: 0px;
+font-family: 'Raleway', sans-serif;
+background-color: #f6f6f6;
+}
+
+
+.sky-landing-row {
+  height: 95vh;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(144,78,149,0.93), rgba(233,100,67,0.93)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-row {
+  background-image: url("https://i.ytimg.com/vi/mm7M26OfQ8o/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.know-me-button {
+  background: #fff;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 1.7rem;
+  clear: both;
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: relative;
+}
+
+.profession-landing-container {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin: 0px 0px 0px 30px;
+}
+
+.profession-landing-container h2 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin: 0;
+  display: inline;
+  letter-spacing: 3px;
+}
+
+.text-container-landing {
+  padding: 14vh 0px 14vh 0px;
+}
+
+
+.name-landing-container {
+  border: 3px solid #fff;
+  display: inline-block;
+  padding: 30px 20px;
+}
+
+.name-landing-container h1 {
+  margin: 0px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+.nav-bar-list {
+  margin: 0px;
+  position: absolute;
+  right: 0;
+  margin: 30px 30px 0px 0px;
+}
+
+.nav-bar-list a {
+  display: inline;
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 0px 0px 30px;
+}
+
+.know-me-button p {
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+}
+
+.landscape {
+  padding: 20% 20%;
+  position: absolute;
+}
+
+.home-title {
+  font-size: 5.5em;
+  color: #fff;
+  font-weight: 100;
+  margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+}
+
+.home-subtitle {
+  font-size: 3em;
+  color: #fff;
+  font-weight: bolder;
+  margin: 0px 0px 0px 0px;
+}
+
+.circle-bottom-header {
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  margin-top: 48vh;
+  border-radius: 360px;
+  background: linear-gradient(to bottom, #904e95, #e96443);
+}
+
+.circle-bottom-header img {
+  width: 50px;
+}
+
+.bounceInLeft {
+  animation-delay: 3.5s;
+}
+
+.design-wrapper {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: -120px 10% 50px 10%;
+  width: 80%;
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+
+.personal-info {
+  height: 500px;
+  padding: 80px 80px 0px 80px;
+  z-index: 1;
+  background: linear-gradient(to right, #fff, #fff);
+  position: relative;
+}
+
+.personal-info h3 {
+  font-size: 2rem;
+  display: inline;
+  line-height: 70px;
+}
+
+.icon-profile-container {
+  display: inline;
+}
+
+.personal-info-icon-img {
+  width: 70px;
+}
+
+.personal-info::after {
+    height: 120px;
+    display: block;
+    position: absolute;
+    bottom: -15%;
+    width: 150%;
+    left: -3%;
+    background: linear-gradient(to right, #fff, #fff);
+    content: '';
+    transform: rotate(4deg);
+    overflow: hidden;
+}
+
+.city-born {
+  font-weight: 900;
+}
+
+.about-me-info {
+  padding: 120px 100px;
+  z-index: 2;
+  background: linear-gradient(to right, #904e95, #e96443);
+  text-align: center;
+}
+/*
+.about-me-info::before {
+  height: 60px;
+  display: block;
+  position: relative;
+  top: -20%;
+  left: -20%;
+  width: 150%;
+  background: linear-gradient(to right, #fff, #fff);
+  content: '';
+  transform: rotate(2deg);
+  overflow: hidden;
+}*/
+
+.about-me-info h2 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.about-me-info p {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin: 60px 0px 0px 0px;
+  font-weight: 100;
+}
+
+.about-me-info hr {
+  border: 0.5px solid #fff;
+  width: 20%;
+}
+
+
+.current-job-info{
+  background: linear-gradient(to right, #fff, #fff);
+  text-align: center;
+  padding: 90px 60px 0px 60px;
+  position: relative;
+}
+
+.current-job-info h3{
+  margin: 0px 0px 30px 0px;
+  line-height: 2rem;
+  display: inline-flex;
+  word-spacing: 0px;
+}
+
+.underlined-text{
+  font-weight: bold;
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+.current-job-info span{
+  line-height: 2rem;
+}
+
+.current-job-info img{
+  width: 300px;
+  display: inline-flex;
+  margin: -2px 0px 0px 12px;
+}
+
+.current-job-info::before {
+    height: 40px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: -2%;
+    background: linear-gradient(to right, #fff, #fff);
+    content: '';
+    transform: rotate(4deg);
+    z-index: 0;
+}
+
+.task-item {
+  padding: 15px 30px;
+  text-align: left;
+}
+
+.task-item img {
+  width: 50px;
+}
+
+.task-item p {
+  display: inline-flex;
+  margin: 0px 0px 0px 20px;
+  font-size: 1rem;
+}
+
+.subtitle-row-text {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-top: 80px;
+}
+
+#task-list {
+  padding: 0px 40px;
+}
+
+.tasks-row {
+  margin: 20px 0px 0px 0px;
+}
+
+.work-experience-info {
+  padding: 80px 80px 120px 80px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, #904e95, #e96443);
+}
+
+.work-experience-info hr {
+  width: 70%;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.job-experience-item {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.job-title {
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 2rem;
+  margin: 0px;
+}
+
+.job-company {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.8rem;
+  margin: 0px;
+}
+
+.job-date {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.8rem;
+  margin: 0px 60px 0px 10px;
+  display: inline;
+}
+
+.job-location {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.8rem;
+  margin: 0px 0px 0px 10px;
+  display: inline;
+}
+
+.logo-wrapper {
+  background-color: #fff;
+  border-radius: 360px;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-left: 43%;
+  margin-bottom: 10px;
+}
+
+.logo-wrapper img {
+  width: 90%;
+  margin: 40px 5% 0px 5%;
+}
+
+#logo-exec {
+  width: 80%;
+  margin: 36px 5% 0px 5%;
+}
+
+#uca-brand {
+  margin: 33px 5% 0px 6%;
+}
+
+.job-icon-item {
+  width: 20px;
+}
+
+.job-icon-item-wrapper {
+  padding: 5px 0px 0px 0px;
+  display: inline;
+}
+
+.date-location-info {
+  text-align: right;
+}
+
+
+.icon-arrow {
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  line-height: 3rem;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.more-info-text {
+  margin: 50px 0px 0px 0px;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.education-info {
+  position: relative;
+  padding: 50px 80px 30px 80px;
+  text-align: center;
+  background: linear-gradient(to right, #fff, #fff);
+}
+
+.education-info h3 {
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.education-info h4 {
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 10px 0px 0px 0px;
+}
+
+.education-school {
+  margin: 0px 0px 20px 0px;
+  font-weight: bolder;
+}
+
+.education-date {
+  font-weight: 100;
+  margin: 0px 0px 20px 0px;
+}
+
+.education-location {
+  font-weight: 100;
+  margin: 0px 0px 20px 0px;
+}
+
+.education-info hr {
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.education-icon-item {
+  width: 35px;
+}
+
+.education-item-icon{
+  width: 200px;
+}
+
+.education-item {
+  margin: 40px 0px 0px 0px;
+}
+
+.education-info hr {
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 70%;
+}
+
+.education-img {
+  width: 50%;
+}
+
+.education-img-container {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.education-img-container h4 {
+  font-size: 1.7rem;
+  margin: 0px;
+}
+
+.see-more-education {
+  background: linear-gradient(to right, #904e95, #e96443);
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px 0px 0px 25%;
+}
+
+.work-experience-info::before {
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: -10%;
+    top: -3%;
+    width: 120%;
+    background: linear-gradient(to right, #fff, #fff);
+    content: '';
+    transform: rotate(358deg);
+}
+
+.education-info::before {
+    height: 80px;
+    display: block;
+    position: absolute;
+    left: -10%;
+    top: -4%;
+    width: 120%;
+    background: linear-gradient(to right, #fff, #fff);
+    content: '';
+    transform: rotate(4deg);
+}
+
+
+#task-list {
+  padding: 0px 20px 0px 50px;
+  text-align: left;
+}
+#task-list li {
+  list-style-type: circle;
+}
+
+
+.certification-membership-info {
+  position: relative;
+  background: linear-gradient(to right, #904e95, #e96443);
+  padding: 70px 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.certification-membership-info hr {
+  border: 1px solid rgba(255,255,255,0.2);
+  width: 70%;
+}
+
+.certification-membership-info::before {
+    height: 40px;
+    display: block;
+    position: absolute;
+    left: -8%;
+    top: -3%;
+    width: 120%;
+    background: linear-gradient(to right, #fff, #fff);
+    content: '';
+    transform: rotate(2deg);
+}
+
+.membership-logo {
+  width: 200px;
+}
+
+.logo-wrapper-membership {
+  display: inline-block;
+  margin: 50px 0px 30px 0px;
+  background-color: rgba(255,255,255,1);
+  padding: 35px 40px 45px 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 50px;
+}
+
+.memberships-text-wrapper {
+  padding: 20px 0px 0px 0px;
+}
+
+.memberships-text-wrapper p {
+  color: #000;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 30px 0px 10px 0px;
+}
+
+.memberships-text-wrapper span {
+  margin: 0px 30px 0px 5px;
+}
+
+.memberships-text-wrapper li {
+  list-style-type: circle;
+  text-align: center;
+}
+
+.memberships-text-wrapper a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#certification-item {
+  padding: 25px 0px 0px 0px;
+}
+
+.logo-certification-container {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 360px;
+  margin-left: 30%;
+}
+
+.logo-certification-container img {
+  width: 90%;
+  margin: 30px 0px 0px 0px;
+}
+
+#cambridge-logo {
+  margin: 40px 0px 0px 0px;
+}
+
+#cscmp-iso-logo {
+  width: 70%;
+  margin: 13px 0px 0px 4px;
+}
+
+.certification-separation {
+  margin: 40px 15%;
+  box-sizing: border-box;
+}
+
+.skills-info {
+  position: absolute;
+
+  background: linear-gradient(to right, #fff, #fff);
+}
