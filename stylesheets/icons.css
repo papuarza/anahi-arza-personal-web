@@ -1,157 +1,154 @@
 .svg-img {
   width: 150px;
   position: absolute;
+  filter: grayscale(0.3) opacity(0.3);
+  z-index: 0;
 }
 
 .shipping-svg {
   top: 700px;
-  z-index: 0;
   /*animation-name: backForward;*/
   animation-duration: 12s;
   animation-timing-function: ease-out;
-  filter: grayscale(0.3) opacity(0.3);
   transform: rotate(340deg);
 }
 
-@keyframes backForward {
-  0% {
-    width: 10%;
-  }
-  to {
-    width: 20%;
-  }
+
+.airplane-svg{
+  top: 1050px;
+  right: 0;
 }
 
-.shipping2-svg {
-  width: 25%;
-  margin: 4% 0px 0px 10%;
-  /*animation-name: backForward2;*/
-  animation-duration: 12s;
-  animation-timing-function: ease-out;
+.forklift-svg{
+  top: 1400px;
+}
+
+.crane-svg{
+  top: 1750px;
+  right: 0;
+}
+.delivery-svg{
+  top: 2100px;
+}
+
+.arrival-svg{
+  top: 2450px;
+  right: 0;
+}
+.arrival-1-svg{
+  top: 2800px;
+
+}
+.train-svg{
+  top: 3150px;
+  right: 0;
+
+}
+.operator-svg{
+  top: 3500px;
+
+}
+.worldwide-svg{
+  top: 3850px;
+  right: 0;
+
+}
+.package-svg{
+  top: 4200px;
+
+}
+.customize-svg{
+  top: 4450px;
+  right: 0;
+
+}
+.warehouse-svg{
+  top: 4900px;
+}
+
+.fast-delivery-svg{
+  top: 5250px;
+  right: 0;
 
 }
 
-@keyframes backForward2 {
-  0% {
-    width: 10%;
-  }
-  to {
-    width: 25%;
-  }
-}
-
-.crane-svg {
-  width: 20%;
-  transform: rotate3d(0,1,0,180deg);
-  margin: -20px 0px 0px 54%;
-}
-
-.crane2-svg {
-  width: 23%;
-  transform: rotate3d(0,1,0,0deg);
-  margin: 0px 0px 0px 33%;
-}
-
-.crane3-svg {
-  width: 23%;
-  transform: rotate3d(0,1,0,180deg);
-  margin: -20px 0px 0px 73%;
-}
-
-.crane4-svg {
-  width: 26%;
-  transform: rotate3d(0,1,0,180deg);
-  margin: -15px 0px 0px 110%;
-}
-
-.crane5-svg {
-  width: 28%;
-  transform: rotate3d(0,1,0,180deg);
-  margin: 0px 0px 0px 92%;
-}
-
-.truck-svg {
-  width: 25%;
-  margin:120px 0px 0px 226%;
-  animation-name: rightToLeft;
-  animation-duration: 12s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rightToLeft {
-  0% {
-    margin: 120px 0px 0px -60%;
-  }
-  to {
-    margin:120px 0px 0px 226%;
-  }
-}
-
-@keyframes leftToRight {
-  0% {
-    margin: 120px 0px 0px 200%;
-  }
-  to {
-    margin:120px 0px 0px -80%;
-  }
-}
-
-.forklift-svg {
-  width: 20%;
-  transform: rotate3d(0,1,0,180deg);
-  margin:120px 0px 0px -80%;
-  animation-name: leftToRight;
-  animation-duration: 16s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.warehouse-svg {
-  width: 25%;
-  margin: 30px 0px 0px 61%;
-}
-
-@keyframes swing {
-  0% {
-    transform: rotate3d(0, 0, 1, 15deg);
-    margin: -40vh 0px 0px -15%;
-  }
-
-  20% {
-    transform: rotate3d(0, 0, 1, 15deg);
-    margin: 0vh 0px 0px -15%;
-  }
-
-  40% {
-    transform: rotate3d(0, 0, 1, -10deg);
-    margin: 10vh 0px 0px -15%;
-  }
-
-  60% {
-    transform: rotate3d(0, 0, 1, 5deg);
-    margin: 20vh 0px 0px -15%;
-  }
-
-  80% {
-    transform: rotate3d(0, 0, 1, -5deg);
-    margin: 30vh 0px 0px -15%;
-  }
-
-  to {
-    transform: rotate3d(0, 0, 1, 0deg);
-    margin: 34vh 0px 0px -15%;
-  }
-}
-
-.main-svg-insurace {
-  width: 32%;
-  margin: 34vh 0px 0px -15%;
+.shipping-landscape {
+  left: 100px;
+  width: 100px;
   position: absolute;
-  box-sizing: border-box;
-  transform-origin: top center;
-  animation-name: swing;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;
+}
 
+.shipping2-landscape {
+  left: 150px;
+  width: 120px;
+  top: 10px;
+  position: absolute;
+}
+.crane1-landscape {
+  width: 60px;
+  top: 20px;
+  position: absolute;
+  left: 480px;
+}
+.crane2-landscape {
+  width: 100px;
+  position: absolute;
+  left: 400px;
+    transform: rotate3d(0,1,0,180deg);
+}
+.crane3-landscape {
+  width: 120px;
+  position: absolute;
+  left: 300px;
+}
+.crane6-landscape {
+  width: 140px;
+  position: absolute;
+  left: 500px;
+  top: -10px;
+    transform: rotate3d(0,1,0,180deg);
+}
+.crane5-landscape {
+  width: 100px;
+  position: absolute;
+  left: 640px;
+    transform: rotate3d(0,1,0,180deg);
+}
+.crane4-landscape {
+  width: 60px;
+  top: 20px;
+  position: absolute;
+  left: 600px;
+}
+.forklift1-landscape {
+  width: 80px;
+  position: absolute;
+  left: 650px;
+  top: 70px;
+}
+
+.forklift2-landscape {
+  width: 50px;
+  top: 40px;
+  position: absolute;
+  left: 920px;
+  transform: rotate3d(0,1,0,180deg);
+}
+.warehouse1-landscape {
+  width: 60px;
+  top: 20px;
+  left: 970px;
+  position: absolute;
+}
+.warehouse2-landscape {
+  width: 100px;
+  top: 20px;
+  left: 1000px;
+  position: absolute;
+}
+.warehouse3-landscape {
+  width: 60px;
+  top: 30px;
+  left: 1080px;
+  position: absolute;
 }
