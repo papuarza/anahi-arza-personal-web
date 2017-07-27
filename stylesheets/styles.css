@@ -5,6 +5,17 @@ background-color: #f6f6f6;
 /*height: 7000px;*/
 }
 
+#mobile-hr {
+  display: none;
+}
+
+.date-container, .location-container {
+  display: inline-block;
+}
+
+.mobile-logo-membership {
+  display: none;
+}
 
 .sky-landing-row {
   height: 100vh;
@@ -377,7 +388,7 @@ background-color: #f6f6f6;
   font-size: 1.4rem;
   font-weight: 900;
   line-height: 1.8rem;
-  margin: 0px;
+  margin: 0px 0px 8px 0px;
 }
 
 .job-date {
@@ -745,9 +756,102 @@ background-color: #f6f6f6;
   .subtitle-row-text{
     margin-top: 10px;
   }
+
+  .about-me-info p {
+    font-weight: 400;
+  }
+
   #task-list {
     padding: 0px 10px;
   }
+  .task-item p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 20px;
+  }
 
+  .work-experience-info {
+    padding: 60px 20px 100px 20px;
+  }
+
+  .job-experience-item {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .logo-wrapper {
+    margin: 0px 0px 20px 33%;
+  }
+
+  .job-date, .job-location {
+    font-size: 1.3rem;
+  }
+
+  #task-list li {
+    font-size: 1.2rem;
+  }
+
+  .education-info {
+    padding: 35px 30px 30px 30px;
+  }
+
+  .education-info hr {
+    display: none;
+  }
+
+  #mobile-hr {
+    display: inherit;
+  }
+
+  .education-item {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .certification-membership-info {
+    padding: 50px 30px;
+  }
+
+  .mobile-logo-membership {
+    display: inherit;
+  }
+  .desktop-logo-membership {
+    display: none;
+  }
+  .memberships-text-wrapper p {
+    margin: 0px;
+  }
+  .memberships-text-wrapper li {
+    font-size: 1.3rem;
+  }
+
+  .certification-item-text {
+    font-size: 1.3rem;
+  }
+  #certification-item {
+    padding: 25px 40px 0px 40px;
+  }
+  .logo-wrapper-membership {
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px 25px 20px;
+  }
+  .membership-logo {
+    width: 120px;
+  }
+  .education-date, .education-location, .memberships-text-wrapper span {
+    font-size: 1.3rem;
+  }
+  .date-container, .location-container {
+    display: block;
+    text-align: center;
+  }
+  .job-location, .job-date {
+    margin: 0px 40px 0px 10px;
+  }
+  .second-col-job-description {
+    margin: -6% 0px 0px 0px;
+  }
+  .education-item-icon {
+    width: 120px;
+  }
 
 }
