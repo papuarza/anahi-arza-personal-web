@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   $(".design-wrapper").css("display","none");
   $(".about-me-info").css("display","none");
   $(".current-job-info").css("display","none");
@@ -17,7 +17,8 @@ $( document ).ready(function() {
   $(".about-me-text").css("display","none");
 
   document.addEventListener('scroll', function (event) {
-    if($("body").scrollTop() > 100) {
+    if($(window).scrollTop() > 100) {
+      console.log("hola")
       $(".nav-bar").css("display","inherit");
       $(".design-wrapper").css("display","inherit");
       $(".design-wrapper").addClass("animated bounceInRight");
@@ -39,7 +40,7 @@ $( document ).ready(function() {
       }, 400);
     }
 
-    if($("body").scrollTop() > 500) {
+    if($(window).scrollTop() > 500) {
       $(".about-me-info").css("display","inherit");
       $(".about-me-info").addClass("animated zoomInDown");
       setTimeout(function () {
@@ -50,26 +51,26 @@ $( document ).ready(function() {
       }, 600);
     }
 
-    if($("body").scrollTop() > 1500) {
+    if($(window).scrollTop() > 1500) {
       $(".current-job-info").css("display","inherit");
       $(".current-job-info").addClass("animated bounceIn");
     }
 
-    if($("body").scrollTop() > 1800) {
+    if($(window).scrollTop() > 1800) {
       setTimeout(function () {
         $(".work-experience-info").css("display","inherit");
         $(".work-experience-info").addClass("animated zoomInDown");
       }, 500);
     }
 
-    if($("body").scrollTop() > 3000) {
+    if($(window).scrollTop() > 3000) {
       setTimeout(function () {
         $(".education-info").css("display","inherit");
         $(".education-info").addClass("animated bounceInRight");
       }, 500);
     }
 
-    if($("body").scrollTop() > 3800) {
+    if($(window).scrollTop() > 3800) {
       setTimeout(function () {
         $(".certification-membership-info").css("display","inherit");
         $(".certification-membership-info").addClass("animated bounceIn");
